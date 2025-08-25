@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#textme {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+#clickme {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#clickme:hover {
+    background-color: #0056b3;
+}
+ 
+#list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.card-note {
+    background-color: #fff8e1; 
+    border: 1px solid #60605e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 1000px; 
+    transition: transform 0.2s;
+}
+
+.card-note:hover {
+    transform: translateY(-3px); 
+}
+
+.card-note p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4a4a4a;
+}

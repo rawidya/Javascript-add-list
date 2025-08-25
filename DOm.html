@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- <p id="teks">you found it?</p>
+    <p id="teks">this the flag</p>
+    <p id="teks">picoCTF{U9X_UnP4ck1N6_B1n4Ri3S_5dee4441}”</p>
+
+    <h1>find     the flag</h1> -->
+
+<Input id="clickme" type="button" value="click me"/>
+    <script>
+        const clickme = document.getElementById("clickme");
+        clickme.addEventListener("click", function(){
+            clickme.setAttribute("value", "you clicked me");
+        })
+    //entById("teks");
+    //  console.info(teks);
+        // const people ={
+        //     nama : "zael", pico : "picoCTF{U9X_UnP4ck1N6_B1n4Ri3S_5dee4441}”"  
+        // }
+        // console.table(people);    
+
+
+        // console.log(document.title);
+            // console.log(document.head);
+            // console.log(document.body);
+
+    </script>
+</body>
+</html>
